@@ -34,9 +34,9 @@ RUN apt-get install -y vim git wget libfreetype6 libfontconfig bzip2 make g++
 	
 VOLUME /app
 
-RUN useradd -d /home/tester tester
+RUN useradd -m tester
 
-COPY .npmrc /home/tester
+COPY .npmrc /home/tester/
 
 USER tester
 
