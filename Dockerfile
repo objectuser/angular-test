@@ -13,7 +13,7 @@ RUN set -ex \
 		gpg --keyserver ha.pool.sks-keyservers.net --recv-keys "$key"; \
 	done
 
-ENV NODE_VERSION 0.12.7
+ENV NODE_VERSION 4.1.1
 ENV NPM_VERSION 2.14.1
 
 RUN \
