@@ -1,4 +1,4 @@
-FROM java:8
+FROM objectuser/basejava
 MAINTAINER https://github.com/objectuser/angular-test
 
 RUN \
