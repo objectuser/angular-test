@@ -7,7 +7,7 @@ RUN \
 
 # Support for various NPM dependencies
 RUN apt-get install -y vim git wget libfreetype6 libfontconfig bzip2 make g++ \
-  build-essential libssl-dev
+  build-essential libssl-dev python
 
 # Support for running Chrome headless
 RUN apt-get install -y xvfb
